@@ -78,7 +78,7 @@ function parse_arguments() {
 
 parse_arguments "$@"
 
-IMAGE="${REGISTRY}/${ORGANIZATION}/che-devfile-registry:${TAG}"
+IMAGE="${REGISTRY}/chime-devfile-registry:${TAG}"
 VERSION=$(head -n 1 VERSION)
 case $VERSION in
   *SNAPSHOT)
