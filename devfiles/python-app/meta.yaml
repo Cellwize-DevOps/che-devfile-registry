@@ -1,0 +1,6 @@
+---
+displayName: Python Application
+description: An application contains an algorithm that receives input data, processes that data, producing results. Ensure that your work is algorithm-centered, encompassing input, algorithm, and output.
+tags: ["Centos", "Python", "pip"]
+icon: /images/python.svg
+globalMemoryLimit: 1686Mi
