@@ -1,6 +1,6 @@
 apiVersion: 1.0.0
 metadata:
-  name: chime-python-service
+  name: chime-python-service-
 components:
   - id: ms-python/python/latest
     memoryLimit: 512Mi
