@@ -1,0 +1,6 @@
+---
+displayName: Python Function
+description: Ensure that your development work is event-based, including—in a sequential manner—triggers, rules, and actions. Function templates provide you with a clear delineation between context and application.
+tags: ["Centos", "Python", "pip", "Function"]
+icon: /images/python.svg
+globalMemoryLimit: 1686Mi
