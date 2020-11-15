@@ -1,14 +1,7 @@
 ---
 apiVersion: 1.0.0
 metadata:
-  generateName: java-maven-
-projects:
-  -
-    name: console-java-simple
-    source:
-      type: git
-      location: "https://github.com/che-samples/console-java-simple.git"
-      branch: java1.11
+  generateName: chime-java-
 components:
   -
     type: chePlugin
@@ -40,6 +33,13 @@ components:
     volumes:
       - name: m2
         containerPath: /home/user/.m2
+    endpoints:
+      - name: 'debug'
+        port: 5005
+        attributes:
+          public: 'false'
+  - type: cheEditor
+    reference: 'https://raw.githubusercontent.com/israelberko/chime-branding/master/coming-soon/che-editor.meta.yaml'
 commands:
   -
     name: maven build
