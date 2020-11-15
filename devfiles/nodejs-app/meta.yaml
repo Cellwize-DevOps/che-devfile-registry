@@ -1,0 +1,6 @@
+---
+displayName: NodeJS Express Application
+description: An application contains an algorithm that receives input data, processes that data, producing results. Ensure that your work is algorithm-centered, encompassing input, algorithm, and output.
+tags: ["NodeJS", "Express", "ubi8", "Application"]
+icon: /images/nodejs.svg
+globalMemoryLimit: 2198Mi
