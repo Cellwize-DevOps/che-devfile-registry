@@ -1,0 +1,7 @@
+---
+apiVersion: 1.0.0
+metadata:
+  generateName: chime-java-service-
+components:
+  - type: cheEditor
+    reference: 'https://raw.githubusercontent.com/israelberko/chime-branding/master/coming-soon/che-editor.meta.yaml'
