@@ -1,0 +1,6 @@
+---
+displayName: Java Function
+description: Ensure that your development work is event-based, including—in a sequential manner—triggers, rules, and actions. Function templates provide you with a clear delineation between context and application.
+tags: ["Java", "OpenJDK", "Maven", "Debian", "Function"]
+icon: /images/java.svg
+globalMemoryLimit: 2674Mi
