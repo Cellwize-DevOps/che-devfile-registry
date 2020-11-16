@@ -1,0 +1,6 @@
+---
+displayName: NodeJS Express Function
+description: Ensure that your development work is event-based, including—in a sequential manner—triggers, rules, and actions. Function templates provide you with a clear delineation between context and application.
+tags: ["NodeJS", "Express", "ubi8", "Function"]
+icon: /images/nodejs.svg
+globalMemoryLimit: 2198Mi
