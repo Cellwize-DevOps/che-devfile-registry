@@ -12,7 +12,7 @@ set -e
 
 SCRIPT_DIR=$(cd "$(dirname "$0")"; pwd)
 
-DEFAULT_REGISTRY="israelber"
+DEFAULT_REGISTRY="cellwizeltd"
 DEFAULT_ORGANIZATION="eclipse"
 DEFAULT_TAG="nightly"
 
