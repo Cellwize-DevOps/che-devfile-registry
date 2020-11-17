@@ -1,6 +1,6 @@
 ---
 displayName: NodeJS Express Service
-description: Make sure your work is service-oriented, tangible, accessible, and continuous. The services you provide are always-on, operated in an ongoing fashion, and accessible through the API layer.
+description: Service oriented template for Node
 tags: ["NodeJS", "Express", "ubi8", "Service"]
 icon: /images/nodejs.svg
 globalMemoryLimit: 2198Mi
