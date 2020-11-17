@@ -1,6 +1,6 @@
 ---
 displayName: Java Service
-description: Make sure your work is service-oriented, tangible, accessible, and continuous. The services you provide are always-on, operated in an ongoing fashion, and accessible through the API layer.
+description: Service oriented template for Java
 tags: ["Java", "OpenJDK", "Maven", "Debian", "Service"]
 icon: /images/java.svg
 globalMemoryLimit: 2674Mi

@@ -1,6 +1,6 @@
 ---
 displayName: Python Service
-description: Make sure your work is service-oriented, tangible, accessible, and continuous. The services you provide are always-on, operated in an ongoing fashion, and accessible through the API layer.
+description: Service oriented template for Pyhton
 tags: ["Centos", "Python", "pip", "Service"]
 icon: /images/python.svg
 globalMemoryLimit: 1686Mi
