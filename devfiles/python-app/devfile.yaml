@@ -14,7 +14,7 @@ components:
   - mountSources: true
     memoryLimit: 512Mi
     type: dockerimage
-    image: 'israelber/che-python-3.8:nightly'
+    image: 'cellwizeltd/che-python-3.8:nightly'
     alias: python
   - type: cheEditor
     reference: 'https://raw.githubusercontent.com/israelberko/chime-branding/master/python/che-editor.meta.yaml'
