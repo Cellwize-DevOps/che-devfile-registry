@@ -17,7 +17,7 @@ components:
     image: 'cellwizeltd/che-python-3.8:nightly'
     alias: python
   - type: cheEditor
-    reference: 'https://raw.githubusercontent.com/israelberko/chime-branding/master/python/che-editor.meta.yaml'
+    reference: 'https://raw.githubusercontent.com/Cellwize-DevOps/chime-meta-branding/main/python/che-editor.meta.yaml'
 commands:
   - name: run
     actions:

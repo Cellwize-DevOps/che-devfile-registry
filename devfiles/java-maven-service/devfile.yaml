@@ -4,4 +4,4 @@ metadata:
   generateName: chime-java-service-
 components:
   - type: cheEditor
-    reference: 'https://raw.githubusercontent.com/israelberko/chime-branding/master/coming-soon/che-editor.meta.yaml'
+    reference: 'https://raw.githubusercontent.com/Cellwize-DevOps/chime-meta-branding/main/coming-soon/che-editor.meta.yaml'
