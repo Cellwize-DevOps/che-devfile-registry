@@ -40,7 +40,7 @@ jobs:
         run: |
           SHORT_SHA1=$(git rev-parse --short HEAD)
           docker build -t chime-devfile-registry -f ./build/dockerfiles/Dockerfile --target registry .
-          docker tag chime-devfile-registry israelber/chime-devfile-registry:test-nightly
-          docker push israelber/chime-devfile-registry:test-nightly
+          docker tag chime-devfile-registry israelber/chime-devfile-registry:nightly
+          docker push israelber/chime-devfile-registry:nightly
           docker tag chime-devfile-registry israelber/chime-devfile-registry:${SHORT_SHA1}
           docker push israelber/chime-devfile-registry:${SHORT_SHA1}
