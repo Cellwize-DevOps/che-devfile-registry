@@ -4,30 +4,16 @@ metadata:
 projects:
   - name: chime-python-template
     source:
-      location: 'https://github.com/Cellwize-DevOps/chime-python-template.git'
+      location: 'https://github.com/cellwize-chime-developers/chime-python-template.git'
       type: git
       branch: master
 components:
   - id: ms-python/python/latest
     memoryLimit: 512Mi
+    volumes:
+      - name: theia-home-local
+        containerPath: /home/theia/.local
+    alias: python-plugin
     type: chePlugin
-  - mountSources: true
-    memoryLimit: 512Mi
-    type: dockerimage
-    image: 'cellwizeltd/che-python-3.8:nightly'
-    alias: python
   - type: cheEditor
     reference: 'https://raw.githubusercontent.com/Cellwize-DevOps/chime-meta-branding/main/python/che-editor.meta.yaml'
-commands:
-  - name: run
-    actions:
-      - workdir: '${CHE_PROJECTS_ROOT}/python-hello-world'
-        type: exec
-        command: '. ${CHE_PROJECTS_ROOT}/.venv/bin/activate &&  python hello-world.py'
-        component: python
-  - name: set up venv
-    actions:
-      - workdir: '${CHE_PROJECTS_ROOT}/'
-        type: exec
-        command: python -m venv /projects/.venv
-        component: python
