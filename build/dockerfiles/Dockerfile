@@ -26,6 +26,7 @@ RUN TAG=${PATCHED_IMAGES_TAG} \
 RUN ./check_mandatory_fields.sh devfiles
 RUN if [[ ${USE_DIGESTS} == "true" ]]; then ./write_image_digests.sh devfiles; fi
 RUN ./index.sh > /build/devfiles/index.json
+RUN echo `</build/devfiles/index.json`
 RUN ./list_referenced_images.sh devfiles > /build/devfiles/external_images.txt
 RUN chmod -R g+rwX /build/devfiles
 
