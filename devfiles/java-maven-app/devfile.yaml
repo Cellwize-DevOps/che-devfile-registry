@@ -5,3 +5,26 @@ metadata:
 components:
   - type: cheEditor
     reference: 'https://raw.githubusercontent.com/Cellwize-DevOps/chime-meta-branding/main/coming-soon/che-editor.meta.yaml'
+commands:
+  - name: pip install
+    actions:
+      - workdir: '${CHE_PROJECTS_ROOT}/chime-python-template/'
+        type: exec
+        command: 'pip install ${input:library}'
+        component: python-plugin
+  - name: run
+    actions:
+      - referenceContent: |
+          {
+                  "version": "2.0.0",
+                  "tasks": [],
+                  "inputs": [
+                    {
+                      "type": "promptString",
+                      "id": "library",
+                       "description": "Define value for property 'library'",
+                       "default": "python library"
+                    }
+                 ]
+          }
+        type: vscode-task
