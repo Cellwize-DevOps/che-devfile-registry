@@ -20,9 +20,9 @@ components:
 commands:
   - name: pip install
     actions:
-      - workdir: '${CHE_PROJECTS_ROOT}/chime-python-template/'
+      - workdir: '${CHE_PROJECTS_ROOT}/${input:project}/'
         type: exec
-        command: 'pip install ${input:library}'
+        command: 'pip install -r requirements.txt --user'
         component: python-plugin
   - name: run
     actions:
@@ -33,9 +33,9 @@ commands:
                   "inputs": [
                     {
                       "type": "promptString",
-                      "id": "library",
-                       "description": "Define value for property 'library'",
-                       "default": "python library"
+                      "id": "project",
+                       "description": "Please provide project name",
+                       "default": "chime-python-template"
                     }
                  ]
           }
