@@ -17,6 +17,7 @@ components:
     type: chePlugin
   - type: cheEditor
     reference: 'https://raw.githubusercontent.com/Cellwize-DevOps/chime-meta-branding/main/python/che-editor.meta.yaml'
+    alias: theia
 commands:
   - name: pip install
     actions:
@@ -24,6 +25,12 @@ commands:
         type: exec
         command: 'pip install -r requirements.txt --user'
         component: python-plugin
+  - name: set git remote repository
+    actions:
+      - workdir: '${CHE_PROJECTS_ROOT}/${input:project}'
+        type: exec
+        command: 'git remote set-url origin ${input:gitRepo}'
+        component: theia
   - name: run
     actions:
       - referenceContent: |
@@ -36,6 +43,12 @@ commands:
                       "id": "project",
                        "description": "Please provide project name",
                        "default": "chime-python-template"
+                    },
+                    {
+                      "type": "promptString",
+                      "id": "gitRepo",
+                       "description": "Please provide git repository url",
+                       "default": ""
                     }
                  ]
           }
