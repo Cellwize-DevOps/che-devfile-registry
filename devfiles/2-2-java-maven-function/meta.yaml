@@ -1,6 +1,6 @@
 ---
-displayName: Java Function
-description: Contextual driven FaaS template for Java
+displayName: Function Template
+description: Java contextual driven FaaS template
 tags: ["Java", "OpenJDK", "Maven", "Debian", "Function"]
 icon: /images/java.svg
 globalMemoryLimit: 2674Mi

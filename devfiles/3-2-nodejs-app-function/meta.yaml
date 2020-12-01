@@ -1,6 +1,6 @@
 ---
-displayName: NodeJS Express Function
-description: Contextual driven FaaS template for Node
+displayName: Function Template
+description: NodeJS Express contextual driven FaaS template
 tags: ["NodeJS", "Express", "ubi8", "Function"]
 icon: /images/nodejs.svg
 globalMemoryLimit: 2198Mi

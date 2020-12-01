@@ -1,6 +1,6 @@
 ---
-displayName: Python Function
-description: Contextual driven FaaS template for Python
+displayName: Function Template
+description: Python contextual driven FaaS template
 tags: ["Centos", "Python", "pip", "Function"]
 icon: /images/python.svg
 globalMemoryLimit: 1686Mi
