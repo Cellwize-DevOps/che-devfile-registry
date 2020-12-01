@@ -1,6 +1,6 @@
 ---
-displayName: NodeJS Express Application
-description: AnRAN automation application template for Node
+displayName: RAN Application (rApp)
+description: NodeJs RAN automation application template
 tags: ["NodeJS", "Express", "ubi8", "Application"]
 icon: /images/nodejs.svg
 globalMemoryLimit: 2198Mi

@@ -1,6 +1,6 @@
 ---
-displayName: Java Application
-description: RAN automation application template for Java
+displayName: RAN Application (rApp)
+description: Java RAN automation application template
 tags: ["Java", "OpenJDK", "Maven", "Debian", "Application"]
 icon: /images/java.svg
 globalMemoryLimit: 2674Mi

@@ -1,6 +1,6 @@
 ---
-displayName: Python Application
-description: RAN automation application template for Python
+displayName: RAN Application (rApp)
+description: Python RAN automation application template
 tags: ["Centos", "Python", "pip", "Application"]
 icon: /images/python.svg
 globalMemoryLimit: 1686Mi
