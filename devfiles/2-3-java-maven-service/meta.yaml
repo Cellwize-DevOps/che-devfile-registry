@@ -1,6 +1,6 @@
 ---
-displayName: Java Service
-description: Service oriented template for Java
+displayName: Service Template
+description: Java service oriented template
 tags: ["Java", "OpenJDK", "Maven", "Debian", "Service"]
 icon: /images/java.svg
 globalMemoryLimit: 2674Mi

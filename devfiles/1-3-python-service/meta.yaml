@@ -1,6 +1,6 @@
 ---
-displayName: Python Service
-description: Service oriented template for Pyhton
+displayName: Service Template
+description: Pyhton service oriented template
 tags: ["Centos", "Python", "pip", "Service"]
 icon: /images/python.svg
 globalMemoryLimit: 1686Mi

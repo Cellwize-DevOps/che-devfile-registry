@@ -1,6 +1,6 @@
 ---
-displayName: NodeJS Express Service
-description: Service oriented template for Node
+displayName: Service Template
+description: NodeJS Express service oriented template
 tags: ["NodeJS", "Express", "ubi8", "Service"]
 icon: /images/nodejs.svg
 globalMemoryLimit: 2198Mi
