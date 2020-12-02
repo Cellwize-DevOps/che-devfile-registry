@@ -2,5 +2,5 @@
 displayName: Function Template
 description: Java contextual driven FaaS template
 tags: ["Java", "OpenJDK", "Maven", "Debian", "Function"]
-icon: /images/java.svg
+icon: /images/chime-function.svg
 globalMemoryLimit: 2674Mi

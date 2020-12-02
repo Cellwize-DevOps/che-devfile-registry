@@ -2,5 +2,5 @@
 displayName: RAN Application (rApp)
 description: NodeJs RAN automation application template
 tags: ["NodeJS", "Express", "ubi8", "Application"]
-icon: /images/nodejs.svg
+icon: /images/chime-app.svg
 globalMemoryLimit: 2198Mi

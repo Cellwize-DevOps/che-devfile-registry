@@ -2,5 +2,5 @@
 displayName: RAN Application (rApp)
 description: Java RAN automation application template
 tags: ["Java", "OpenJDK", "Maven", "Debian", "Application"]
-icon: /images/java.svg
+icon: /images/chime-app.svg
 globalMemoryLimit: 2674Mi

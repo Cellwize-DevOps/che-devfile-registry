@@ -2,5 +2,5 @@
 displayName: Function Template
 description: NodeJS Express contextual driven FaaS template
 tags: ["NodeJS", "Express", "ubi8", "Function"]
-icon: /images/nodejs.svg
+icon: /images/chime-function.svg
 globalMemoryLimit: 2198Mi

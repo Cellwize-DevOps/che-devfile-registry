@@ -2,5 +2,5 @@
 displayName: Service Template
 description: Java service oriented template
 tags: ["Java", "OpenJDK", "Maven", "Debian", "Service"]
-icon: /images/java.svg
+icon: /images/chime-service.svg
 globalMemoryLimit: 2674Mi

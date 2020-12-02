@@ -2,5 +2,5 @@
 displayName: Service Template
 description: Pyhton service oriented template
 tags: ["Centos", "Python", "pip", "Service"]
-icon: /images/python.svg
+icon: /images/chime-service.svg
 globalMemoryLimit: 1686Mi

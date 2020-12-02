@@ -2,5 +2,5 @@
 displayName: Function Template
 description: Python contextual driven FaaS template
 tags: ["Centos", "Python", "pip", "Function"]
-icon: /images/python.svg
+icon: /images/chime-function.svg
 globalMemoryLimit: 1686Mi
